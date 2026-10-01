@@ -5,15 +5,15 @@ import { X, CheckCircle, Info } from 'lucide-react';
 import { WHATSAPP_NUMBER } from '../../config';
 
 const vehicles = [
-  { name: 'Range Rover Defender 110 HSE', desc: 'Ultimate luxury off-roader.', price: '₹60,000', oldPrice: '₹75,000', image: '/vehicle_defender.jpg', type: 'Luxury 4x4 SUV' },
-  { name: 'Range Rover Velar', desc: 'Avant-garde design meets capability.', price: '₹42,000', oldPrice: '₹50,000', image: '/vehicle_velar.jpg', type: 'Luxury SUV' },
-  { name: 'Mercedes CLE300 Cabriolet', desc: 'Open-air high altitude luxury.', price: '₹65,000', oldPrice: null, image: '/vehicle_defender.jpg', type: 'Luxury Convertible' },
-  { name: 'Jeep Wrangler 4x4 Automatic', desc: 'Iconic capability, premium comfort.', price: '₹32,000', oldPrice: '₹40,000', image: '/vehicle_defender.jpg', type: 'Premium 4x4 Off-roader' },
-  { name: 'Hilux 4x4', desc: 'Unbreakable expedition pickup.', price: '₹11,000', oldPrice: '₹15,000', image: '/vehicle_defender.jpg', type: '4x4 Pickup Truck' },
-  { name: 'Fortuner 4x4', desc: 'Premium rugged SUV for groups.', price: '₹7,000', oldPrice: '₹9,000', image: '/vehicle_defender.jpg', type: '4x4 SUV' },
-  { name: 'Scorpio Classic S 4x4', desc: 'The Himalayan workhorse.', price: '₹6,500', oldPrice: '₹8,000', image: '/vehicle_scorpio.jpg', type: '4x4 SUV' },
-  { name: 'Thar 4x4 (2025)', desc: 'Modern classic, unstoppable.', price: '₹5,000', oldPrice: '₹6,500', image: '/vehicle_thar.jpg', type: '4x4 Off-roader' },
-  { name: 'Jimny 4x4', desc: 'Lightweight mountain goat.', price: '₹4,000', oldPrice: '₹5,500', image: '/vehicle_jimny.jpg', type: 'Compact 4x4' },
+  { name: 'Range Rover Defender 110 HSE', desc: 'Ultimate luxury off-roader.', price: '₹60,000', oldPrice: '₹75,000', image: '/images/fleet/defender.jpg', type: 'Luxury 4x4 SUV' },
+  { name: 'Range Rover Velar', desc: 'Avant-garde design meets capability.', price: '₹42,000', oldPrice: '₹50,000', image: '/images/fleet/velar.jpg', type: 'Luxury SUV' },
+  { name: 'Mercedes CLE300 Cabriolet', desc: 'Open-air high altitude luxury.', price: '₹65,000', oldPrice: null, image: '/images/fleet/mercedes.jpg', type: 'Luxury Convertible' },
+  { name: 'Jeep Wrangler 4x4 Automatic', desc: 'Iconic capability, premium comfort.', price: '₹32,000', oldPrice: '₹40,000', image: '/images/fleet/wrangler.jpg', type: 'Premium 4x4 Off-roader' },
+  { name: 'Hilux 4x4', desc: 'Unbreakable expedition pickup.', price: '₹11,000', oldPrice: '₹15,000', image: '/images/fleet/hilux.jpg', type: '4x4 Pickup Truck' },
+  { name: 'Fortuner 4x4', desc: 'Premium rugged SUV for groups.', price: '₹7,000', oldPrice: '₹9,000', image: '/images/fleet/fortuner.jpg', type: '4x4 SUV' },
+  { name: 'Scorpio Classic S 4x4', desc: 'The Himalayan workhorse.', price: '₹6,500', oldPrice: '₹8,000', image: '/images/fleet/scorpio.jpg', type: '4x4 SUV' },
+  { name: 'Thar 4x4 (2025)', desc: 'Modern classic, unstoppable.', price: '₹5,000', oldPrice: '₹6,500', image: '/images/fleet/thar.jpg', type: '4x4 Off-roader' },
+  { name: 'Jimny 4x4', desc: 'Lightweight mountain goat.', price: '₹4,000', oldPrice: '₹5,500', image: '/images/fleet/jimny.jpg', type: 'Compact 4x4' },
 ];
 
 export default function Fleet() {
